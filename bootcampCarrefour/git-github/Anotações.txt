@@ -1,0 +1,10 @@
+# Principais Comandos Git
+git clone - (copiar e colar o link do repositório e der enter)
+
+git status - 
+
+cd -  pra entrar dentro do repositório
+
+git add . ou git add -A (para adicionar todos os arquivos):
+Para que as novas pastas criadas estejam também no servidor remoto do github,
+ou seja enviar a pasta para o controle de versão.
