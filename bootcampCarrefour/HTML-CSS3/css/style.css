@@ -1,18 +1,60 @@
+body{
+ background-color: rebeccapurple; 
+ max-width: 900px;
+ 
+
+
+}
+
 #escritorio{
-  height: 300px;
-  width:500px;
+  height: 350px;
+  max-width: 950px;
+  margin: auto;
+
+  
 }
 
 #foto{
   height: 150px;
-  width: 100px;
+  width: 100px; 
+
 }
 
 #title, .subtitle, .posttitle{
-  color: blue;
+  color: white;
 }
 
 .posttitle{
   font-size: 16px;
   font-style: italic;
+  color: rebeccapurple;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: red;
+}
+
+.post{
+  background: #fff;
+  padding: 10px;
+  border: 3px solid black ;
+  border-radius: 10px;
+  margin: 10px;
+}
+p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+}
+#link{
+  color: blue;
+}
+#link:hover{
+  color: red;
+}
+
+ul{
+  list-style-type: "\1F44D";
 }
