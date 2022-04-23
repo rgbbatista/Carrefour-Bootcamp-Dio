@@ -1,0 +1,18 @@
+#escritorio{
+  height: 300px;
+  width:500px;
+}
+
+#foto{
+  height: 150px;
+  width: 100px;
+}
+
+#title, .subtitle, .posttitle{
+  color: blue;
+}
+
+.posttitle{
+  font-size: 16px;
+  font-style: italic;
+}
