@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minha Página com Bootstrap</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light margin">
+      <a class="navbar-brand" href="#">
+        <img src="./img/gobal labs.png" alt="logo global" />
+      </a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#quemsomos">Quem Somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#parceiros">Parceiros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#serviços">Serviços</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section id="quemsomos">
+      <div class="container-fluid quem-somos text-center margin">
+        <h3>Quem Somos</h3>
+        <img
+          src="./img/computer.jpg"
+          class="rounded-circle"
+          alt="imagem dev"
+          width="400"
+          height="400"
+        />
+        <h3>Somos um time de Dev's que traz resultados.</h3>
+      </div>
+    </section>
+
+    <section id="parceiros">
+      <div class="container-fluid text-center margin parceiros">
+        <h3>Parceiros</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="./img/digital inno.png" alt="dio" width="100%" />
+            </div>
+
+            <div class="col-lg-4">
+              <img src="./img/digital inno.png" alt="dio" width="100%" />
+            </div>
+
+            <div class="col-lg-4">
+              <img src="./img/digital inno.png" alt="dio" width="100%" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="serviços">
+      <div class="container-fluid serviços text-center margin">
+        <h3>Serviços</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <a
+                class="link-serviço"
+                href="https://www.dio.me/articles/responsividade"
+                target="blanck"
+                ><h4>Site Responsivel</h4></a
+              >
+              <p>
+                Um site é a apresentação do seu negócio na internet, portanto
+                estar bem apresentado é fundamental para a evolução do seu
+                negócio no mundo virtual. Pensando nisso, desenvolvemos websites
+                por preço único, que geram clientes e conversões para sua
+                empresa.
+              </p>
+
+              <img
+                class="img-responsive"
+                src="./img/responsive.jpg"
+                alt="foto"
+                width="100%"
+              />
+            </div>
+
+            <div class="col-lg-6">
+              <a
+                class="link-serviço"
+                href="https://www.youtube.com/watch?v=jlPfyquhKQ0"
+                target="blanck"
+              >
+                <h4>App Mobile</h4>
+              </a>
+
+              <p>
+                Utilizamos tecnologia de ponta para o desenvolvimento de nossos
+                aplicativos. Entre eles estão frameworks Vue,js, Flutter ou
+                React Native Contamos também com um banco de dados que engloba
+                um grande volume de informações sendo este o MySQ.
+              </p>
+
+              <img
+                class="img-mobile"
+                src="./img/mobile.jpg"
+                alt="foto"
+                width="100%"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
