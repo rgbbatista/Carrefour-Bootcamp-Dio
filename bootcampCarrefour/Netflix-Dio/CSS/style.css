@@ -43,7 +43,7 @@ header nav a:hover{
 /*FILME PRINCIPAL*/
 .filme-principal{
   font-size: 16px;
-  background:linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50)100%), url('../img/manda-chuva-capa.jpg');
+  background:linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50) 100%), url('../img/manda-chuva-capa.jpg');
 
   height:600px;
   background-size:cover;
@@ -59,8 +59,8 @@ header nav a:hover{
   margin-bottom: 40px;
 }
 
-.filme-principal .titulo{
-  margin-top: 15%px;
+.filme-principal .titulo {
+  margin-top: 15px;
   font-size: 40px;
   font-family: "Trebuchet MS" ,arial, sans-serif;
 }
